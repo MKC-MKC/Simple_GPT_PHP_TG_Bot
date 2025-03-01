@@ -50,6 +50,7 @@ Example.php:
 # Load Core
 $bot = new ChatGPT();
 //$bot->timeout = 15; # Custom value of time-out for requests.
+//$bot->memo = 5; Custom value for how many messages the bot should remember. [on timeout]
 
 # DataBase Name
 //$bot->db_name = "my_custom_db_name"; # Custom DataBase Name
