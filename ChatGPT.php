@@ -274,7 +274,7 @@ class ChatGPT {
 	 * @throws Exception
 	 * @noinspection PhpUnused
 	 */
-	public function animatedEditMessageText(int|string $chatId, int $messageId, string $text, string $parseMode = "html", bool $disablePreview = true, int $sleep = 150000): void {
+	public function animatedEditMessageText(int|string $chatId, int $messageId, string $text, string $parseMode = "markdown", bool $disablePreview = true, int $sleep = 150000): void {
 		$lines = explode(PHP_EOL, $text);
 		$preparedText = "";
 
